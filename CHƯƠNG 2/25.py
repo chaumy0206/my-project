@@ -1,0 +1,8 @@
+n=float(input("So tien ban dau:"))
+k=float(input("So thang gui:"))
+T=float(input("Lai suat/ thang:"))
+m=n*(1+k*T)
+print("Voi so tien ban dau",n,end=",")
+print("Sau",k,"thang gui",end=",")
+print("Lai suat",T,"/thang")
+print("Thi so tien nhan duoc cuoi ky la:",m)
