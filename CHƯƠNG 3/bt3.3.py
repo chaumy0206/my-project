@@ -1,0 +1,10 @@
+KW=int(input('Tieu thu='))
+if KW>=0:
+     if KW>200:
+         print('Phai tra=',(KW*1350)+(10/100))
+     if 151<=KW<=200:
+         print('Phai tra=',(KW*950)+(10/100))
+     if 101<=KW<=150:
+         print('Phai tra=',(KW*750)+(10/100))
+     if 1<=KW<=100:
+         print('Phai tra=',(KW*550)+(10/100))
